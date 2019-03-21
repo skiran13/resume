@@ -1,0 +1,254 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.2 (16/9/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[]{surya-resume}
+\usepackage{fancyhdr}
+\usepackage{fontawesome}
+ 
+\pagestyle{fancy}
+\fancyhf{}
+ 
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     LAST UPDATED DATE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\lastupdated
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     TITLE NAME
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{Surya Kiran}{Suresh}{ \urlstyle{same} \href{https://skiran13.github.io/}{skiran13.githib.io} | \faGithub \href{https://github.com/skiran13}{ Github}\\
+\faEnvelope\href{mailto:skiran13@gmail.com}{ skiran13@gmail.com} | \faMobile { +91 8939593339}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN ONE
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{minipage}[t]{0.33\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EDUCATION
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Education} 
+
+\subsection{SRM Institute of}
+\subsection{Science and Technology}
+\descript{B. Tech in Computer}
+\descript{Science and Engineering}
+\location{2017 - 2021 (Ongoing)}
+\location{\faMapMarker{ Chennai, Tamil Nadu, IN}}
+\sectionsep
+
+\subsection{National Defence Academy}
+\descript{Bachelor of Computer Science}
+Tri-Services Training Academy \\
+\location{2016 - 2017 (Dropped) \\ \faMapMarker{ Pune, Maharashtra, IN}}
+\sectionsep
+
+\subsection{Maharishi Vidya Mandir}
+\descript{11th \&\ 12th Grade}
+\location{2014 - 2016 \\\faMapMarker{ Chennai, Tamil Nadu, IN}}
+\sectionsep
+
+\subsection{Kendriya Vidyalaya}
+\descript{10th Grade}
+\location{2013 - 2014 \\\faMapMarker{ Chennai, Tamil Nadu, IN}}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     LINKS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Links} 
+\faGithub { Github}:// \href{https://github.com/skiran13}{\bf skiran13} \\
+\faLinkedin { LinkedIn}://  \href{https://www.linkedin.com/in/surya-kiran-suresh-569548166/}{\bf Surya Kiran} \\
+\faTwitter { Twitter}://  \href{https://twitter.com/skiran13}{\bf @skiran13} \\
+\faQuoteRight { Quora}://  \href{https://www.quora.com/profile/Surya-Kiran-34}{\bf Surya Kiran} \\
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     COURSEWORK
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Coursework}
+%
+%\subsection{Undergraduate}
+%Information Retrieval \\
+%Operating Systems \\
+%Artificial Intelligence + Practicum \\
+%Functional Programming \\
+%Computer Graphics + Practicum \\
+%{\footnotesize \textit{\textbf{(Research Asst. \& Teaching Asst 2x) }}} \\
+%Unix Tools and Scripting \\
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     SKILLS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Skills}
+\subsection{Programming}
+\location{Over 5000 lines:}
+HTML \textbullet{} Nodejs \textbullet{} Reactjs \\
+C \textbullet{} C++ \textbullet{} Javascript \\
+Matlab \textbullet{} Java \textbullet{} Python \textbullet{} CSS \\
+\location{Over 1000 lines:}
+Latex \textbullet{} Markdown \\
+MySQL \textbullet{} Assembly \textbullet{} Sikuli \\
+\location{JS Frameworks}
+Nodejs \textbullet{} Reactjs \textbullet{} Webpack \\
+Babel \textbullet{} Parcel \\
+\location{UI Frameworks}
+Semantic-ui \textbullet{} Bulma-css \textbullet{} Ant-design \\
+\sectionsep
+\subsection{Spoken Languages}
+\textbullet{}\location{English}\textbullet{}\location{Hindi}\textbullet{} \location{Tamil}
+\sectionsep
+\subsection{Interests}
+Singing\textbullet{}Classical Piano\textbullet{}Photography
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     COLUMN TWO
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{minipage} 
+\hfill
+\begin{minipage}[t]{0.65\textwidth} 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     EXPERIENCE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Summary}
+\location{An amateur full-stack web-developer interested in learning about emerging technologies and strives
+to evolve. Well known for meticulous work, effecient time management and leardership skills.
+Currently learning machine learning, artificial intelligence and neural networks. My code and contributions
+can be viewed on my \faGithub \href{https://skiran13.github.io/}{ GitHub.}}
+\sectionsep
+
+\section{Experience}
+\runsubsection{Design Esthetics}
+\descript{| Software Engineering Intern }
+\location{Dec 2018 | Bengaluru, Karnataka, IN}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed an online e-learning platform based on competitive examinations.
+\item Full-stack developer - Wrote and reviewed code for JS using Node, React and MongoDB 
+\end{tightemize}
+\sectionsep
+\runsubsection{SRM CARE}
+\descript{| Software Engineering Intern }
+\location{Jan 2018 - Present | Chennai, Tamil Nadu, IN}
+\begin{tightemize}
+\item Developed and deployed an online e-learning platform with a userbase of 10000+ students.
+\item Full-stack developer - Wrote and reviewed code for JS using Node, React and MongoDB 
+\item Making progressive web-apps to bolster the efficiency of work done in the college 
+\end{tightemize}
+
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{eLab Printer}
+\descript{| Python}
+\location{Sep 2017 | Chennai, Tamil Nadu, IN}
+A Python application made using Selenium Scripting for automation of lab record printing from eLab for students of SRMIST.
+\sectionsep
+
+\runsubsection{Online Quiz}
+\descript{| C++}
+\location{Jan 2016 – March 2016 | Chennai, Tamil Nadu, IN}
+An Online Quiz application built using basic C++ libraries.
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     AWARDS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Awards} 
+\begin{tabular}{rll}
+2019	     & 2\textsuperscript{nd}  & Overall Profecieny and Academics, SRMIST\\
+2019	     & 1\textsuperscript{st}  & Hack it up v2, SRMIST\\    
+2019	     & Student Coordinator  & Technozarre'19, SRMIST\\    
+2018	     & 1\textsuperscript{st}  & Overall Profecieny and Academics, SRMIST\\
+2018	     & 3\textsuperscript{rd}  & Hack it up, SRMIST\\
+2018	     & Participation  & Data Science with Python Workshop, SRMIST\\    
+2018	     & Participation  & Blockchain and Cryptocurrency, SRMIST\\    
+2018	     & 1\textsuperscript{st}  & Geek of the Semester, SRMIST\\
+2017	     & 2\textsuperscript{nd}  & Western Singing, SRMIST\\
+2017	     & Participation  & Ubercode, SRMIST\\    
+2016     & top 300/5Lakh & Service Selection Board Interview - Indian Navy  \\
+2016     & top 350/10k & Service Selection Board Interview - Indian Army  \\
+2016	     & top 10k/5Lakh  & UPSC - National Defence Academy \&\ Naval Academy\\
+\end{tabular}
+\sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     PUBLICATIONS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\section{Publications} 
+%\renewcommand\refname{\vskip -1.5cm} % Couldn't get this working from the .cls file
+%\bibliographystyle{abbrv}
+%\bibliography{publications}
+%\nocite{*}
+
+\end{minipage} 
+\end{document}  \documentclass[]{article}
