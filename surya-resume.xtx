@@ -181,10 +181,27 @@ can be viewed on my \faGithub \href{https://skiran13.github.io/}{ GitHub.}}
 \sectionsep
 
 \section{Experience}
+\runsubsection{Crio.do}
+\descript{| Student Developer}
+\location{Jun 2019 | Chennai, Tamil Nadu, IN}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Developed scalable distributed backend for Qeats Restaurants app
+\item Distributed-backend developer - Wrote and reviewed code for Java implementing MVC and integrating MongoDB, RabbitMQ, Docker and Redis.
+\item Performed Load testing using Jmeter and optimized the results using multithreading.
+\end{tightemize}
+\sectionsep
+\runsubsection{AT \&\ T Aspire}
+\descript{| Student Intern }
+\location{Apr 2018 | Chennai, Tamil Nadu, IN}
+\begin{tightemize}
+\item Learnt and understood implementation of Natural Language Processing in Real Life Products.
+\item Learnt how to create an Alexa Skill using Amazon Web Services.
+\end{tightemize}
+\sectionsep
 \runsubsection{Design Esthetics}
 \descript{| Software Engineering Intern }
 \location{Dec 2018 | Bengaluru, Karnataka, IN}
-\vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Developed an online e-learning platform based on competitive examinations.
 \item Full-stack developer - Wrote and reviewed code for JS using Node, React and MongoDB 
@@ -201,22 +218,6 @@ can be viewed on my \faGithub \href{https://skiran13.github.io/}{ GitHub.}}
 
 \sectionsep
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%    PROJECTS
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-\section{Projects}
-\runsubsection{eLab Printer}
-\descript{| Python}
-\location{Sep 2017 | Chennai, Tamil Nadu, IN}
-A Python application made using Selenium Scripting for automation of lab record printing from eLab for students of SRMIST.
-\sectionsep
-
-\runsubsection{Online Quiz}
-\descript{| C++}
-\location{Jan 2016 – March 2016 | Chennai, Tamil Nadu, IN}
-An Online Quiz application built using basic C++ libraries.
-\sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     AWARDS
@@ -240,6 +241,7 @@ An Online Quiz application built using basic C++ libraries.
 \end{tabular}
 \sectionsep
 
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     PUBLICATIONS
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -251,4 +253,113 @@ An Online Quiz application built using basic C++ libraries.
 %\nocite{*}
 
 \end{minipage} 
+ %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%		NEW PAGE
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{minipage}[t]{1\textwidth} 
+
+\section{Positions of Responsibility}
+\runsubsection{Office Bearer}
+\descript{| White Hat Hackers Club}
+\location{Aug 2019 - Present| Chennai, Tamil Nadu, IN}
+\vspace{\topsep} % Hacky fix for awkward extra vertical space
+\begin{tightemize}
+\item Working as an active Office Bearer of White Hat Hackers Club of SRM Vadapalani.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Event Organizer}
+\descript{| Ubertech 19}
+\location{Aug 2019 | Chennai, Tamil Nadu, IN}
+\begin{tightemize}
+\item Organized Data Analytics workshop for National Technical Symposium Ubertech in SRM Vadapalani.
+\end{tightemize}
+\sectionsep
+
+\runsubsection{Student Coordinator}
+\descript{| Technozarre 19}
+\location{Feb 2019 | Chennai, Tamil Nadu, IN}
+\begin{tightemize}
+\item Worked as a Student Coordinator for National Technical Symposium Technozarre in SRM Vadapalani.
+\end{tightemize}
+\sectionsep
+\runsubsection{Cadet}
+\descript{| National Defence Academy}
+\location{Jan 2017 - Mar 2017 | Pune, Maharashtra, IN}
+\begin{tightemize}
+\item Served as an Officer Cadet for the Indian Army (Batch 137)
+\end{tightemize}
+\sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%    PROJECTS
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Projects}
+\runsubsection{Stock Price Prediction}
+\descript{| Python}
+\location{Sep 2019 | Chennai, Tamil Nadu, IN}
+A machine learning model used to Predict stock prices using different indicators as input and predicting using LSTM.
+\sectionsep
+
+%\runsubsection{WHHC Landing Page}
+%\descript{| ReactJS}
+%\location{Sep 2019 | Chennai, Tamil Nadu, IN}
+%A web app which serves as a landing page for White Hat Hackers Club of SRM Vadapalani Campus.
+%\sectionsep
+
+\runsubsection{SMS Spam Filter}
+\descript{| Python}
+\location{Aug 2019 | Chennai, Tamil Nadu, IN}
+A machine learning model used to classify text messages as Spam or Not Spam using Natuaral Language Processing.
+\sectionsep
+
+\runsubsection{Traffic Volume Prediction}
+\descript{| Python}
+\location{Aug 2019 | Chennai, Tamil Nadu, IN}
+A machine learning model used to Predict traffic volume in a particular area at any given point of time using XG-Boost.
+\sectionsep
+
+\runsubsection{Automatic Licence Plate Recognition}
+\descript{| Python}
+\location{Mar 2019 | Chennai, Tamil Nadu, IN}
+A machine learning model used to detect Licence plate and extract the Licence plate number from cctv footages built using darkflow and yolov2.
+\sectionsep
+
+\runsubsection{eCircuit}
+\descript{| ReactJs | NodeJs}
+\location{Jan 2019 - Current | Chennai, Tamil Nadu, IN}
+An online laboratory platform to make the students of Electrical and Electronics based departments perform different experiments on an applet through a computer.\sectionsep
+
+\runsubsection{ExamAdda}
+\descript{| ReactJs | NodeJs}
+\location{Dec 2018 | Bengaluru, Karnataka, IN}
+An online self evaluation tool to help students prepare for all sorts competitive examinations in different sectors.
+\sectionsep
+
+\runsubsection{eSkill}
+\descript{| ReactJs | NodeJs}
+\location{May 2018 - Dec 2018 | Chennai, Tamil Nadu, IN}
+An online self evaluation tool to help students prepare for competitive examinations like GRE, GMAT etc.
+\sectionsep
+
+\runsubsection{eApproval}
+\descript{| ReactJs | NodeJs}
+\location{Dec 2017 - May 2018 | Chennai, Tamil Nadu, IN}
+An online platform to ease the administration and workflow of approving all different kinds of applications in SRMIST by automating the reduntant processes. 
+\sectionsep
+
+\runsubsection{eLab Printer}
+\descript{| Python}
+\location{Sep 2017 | Chennai, Tamil Nadu, IN}
+A Python application made using Selenium Scripting for automation of lab record printing from eLab for students of SRMIST.
+\sectionsep
+
+\runsubsection{Online Quiz}
+\descript{| C++}
+\location{Jan 2016 – March 2016 | Chennai, Tamil Nadu, IN}
+An Online Quiz application built using basic C++ libraries.
+\sectionsep
+
+\end{minipage}
+
 \end{document}  \documentclass[]{article}
