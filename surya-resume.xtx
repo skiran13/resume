@@ -37,10 +37,10 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %
-% Known Issues:
-% 1. Overflows onto second page if any column's contents are more than the
-% vertical limit
-% 2. Hacky space on the first bullet point on the second column.
+%SURYA RESUME INSTRUCTIONS:
+% 1. Install MikTex on your PC and open the Document using TexWorks
+% 2. Open MikTex Console on your PC and go to packages and install fontawesome and fontawesome5
+% 3. Try to compile the document using LuaLaTeX or XeLaTeX (LuaLaTeX Works properly with fontawesome)
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -172,7 +172,9 @@ Tri-Services Training Academy \\
 \end{tabular}
 \sectionsep
 \subsection{Interests}
-Singing\textbullet{}Classical Piano\textbullet{}Photography
+\begin{tabular}{lll}
+\textbullet{} Singing&\textbullet{} Piano&\textbullet{} Photography
+\end{tabular}
 \sectionsep
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
