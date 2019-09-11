@@ -141,20 +141,35 @@ Tri-Services Training Academy \\
 \section{Skills}
 \subsection{Programming}
 \location{Over 5000 lines:}
-HTML \textbullet{} Nodejs \textbullet{} Reactjs \\
-C \textbullet{} C++ \textbullet{} Javascript \\
-Matlab \textbullet{} Java \textbullet{} Python \textbullet{} CSS \\
+\begin{tabular}{lll}
+\textbullet{} Python &\textbullet{} NodeJS &\textbullet{} ReactJS\\
+\textbullet{} Java &\textbullet{} C &\textbullet{} C++\\
+\textbullet{} HTML &\textbullet{} Javascript &\textbullet{} Matlab\\
+\end{tabular}
+
+\sectionsep
 \location{Over 1000 lines:}
-Latex \textbullet{} Markdown \\
-MySQL \textbullet{} Assembly \textbullet{} Sikuli \\
+\begin{tabular}{lll}
+\textbullet{} Latex &\textbullet{} Markdown &\textbullet{} MySQL\\
+\textbullet{} Assembly &\textbullet{} Sikuli \\
+\end{tabular}
+
+\sectionsep
 \location{JS Frameworks}
-Nodejs \textbullet{} Reactjs \textbullet{} Webpack \\
-Babel \textbullet{} Parcel \\
+\begin{tabular}{lll}
+\textbullet{} Nodejs &\textbullet{} Reactjs &\textbullet{} Webpack \\
+\textbullet{} Babel &\textbullet{} Parcel \\
+\end{tabular}\\
+\sectionsep
 \location{UI Frameworks}
-Semantic-ui \textbullet{} Bulma-css \textbullet{} Ant-design \\
+\begin{tabular}{lll}
+\textbullet{} Semantic-ui &\textbullet{} Bulma-css &\textbullet{} Ant-d\\
+\end{tabular}
 \sectionsep
 \subsection{Spoken Languages}
-\textbullet{}\location{English}\textbullet{}\location{Hindi}\textbullet{} \location{Tamil}
+\begin{tabular}{lll}
+\textbullet{} English &\textbullet{} Hindi &\textbullet{} Tamil
+\end{tabular}
 \sectionsep
 \subsection{Interests}
 Singing\textbullet{}Classical Piano\textbullet{}Photography
@@ -261,7 +276,7 @@ can be viewed on my \faGithub \href{https://skiran13.github.io/}{ GitHub.}}
 \section{Positions of Responsibility}
 \runsubsection{Office Bearer}
 \descript{| White Hat Hackers Club}
-\location{Aug 2019 - Present| Chennai, Tamil Nadu, IN}
+\location{Aug 2019 - Current | Chennai, Tamil Nadu, IN}
 \vspace{\topsep} % Hacky fix for awkward extra vertical space
 \begin{tightemize}
 \item Working as an active Office Bearer of White Hat Hackers Club of SRM Vadapalani.
@@ -287,7 +302,7 @@ can be viewed on my \faGithub \href{https://skiran13.github.io/}{ GitHub.}}
 \descript{| National Defence Academy}
 \location{Jan 2017 - Mar 2017 | Pune, Maharashtra, IN}
 \begin{tightemize}
-\item Served as an Officer Cadet for the Indian Army (Batch 137)
+\item Served as an Officer Cadet in the Indian Army (Batch 137)
 \end{tightemize}
 \sectionsep
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -316,7 +331,7 @@ A machine learning model used to classify text messages as Spam or Not Spam usin
 \runsubsection{Traffic Volume Prediction}
 \descript{| Python}
 \location{Aug 2019 | Chennai, Tamil Nadu, IN}
-A machine learning model used to Predict traffic volume in a particular area at any given point of time using XG-Boost.
+A machine learning model used to Predict traffic volume in a particular area at any given point of time using Gradient Boosted Trees.
 \sectionsep
 
 \runsubsection{Automatic Licence Plate Recognition}
@@ -358,8 +373,6 @@ A Python application made using Selenium Scripting for automation of lab record 
 \descript{| C++}
 \location{Jan 2016 – March 2016 | Chennai, Tamil Nadu, IN}
 An Online Quiz application built using basic C++ libraries.
-\sectionsep
-
 \end{minipage}
 
 \end{document}  \documentclass[]{article}
